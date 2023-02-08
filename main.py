@@ -26,7 +26,7 @@ def crawl_from_ig():
 
 
     wd.find_element(By.NAME, "username").send_keys("testcrawl1234")
-    wd.find_element(By.NAME,"password").send_keys("bb617091")
+    wd.find_element(By.NAME,"password").send_keys("")
 
     wd.find_element(By.XPATH,"//*[text()='登入']").click()
     wd.find_element(By.XPATH,"//*[text()='稍後再說']").click()
